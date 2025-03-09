@@ -5,6 +5,7 @@ insumos_por_produto = {
     "Produto C": {"Insumo 1": 20, "Insumo 2": 35, "Insumo 3": 30}
 }
 
+# Custos por insumos
 custos_insumos = {
     "Insumo 1": 10.00,
     "Insumo 2": 15.00,
