@@ -64,8 +64,9 @@ for insumo, quantidade in quantidade_total_insumos.items():
     print(f" => {insumo}: {quantidade} kg")
 
 print("\nCusto total de produção (R$):", custo_total_atual)
-print("Custo total de produção com Insumo 1 a R$ 12,00/kg (R$):", custo_total_alterado)
-print("Impacto do aumento do Insumo 1 (R$):", impacto_custo)
+print("\nCusto total de produção com Insumo 1 a R$ 12,00/kg (R$):", custo_total_alterado)
+print("\nImpacto do aumento do Insumo 1 (R$):", impacto_custo)
+
 
 
 # def calcular_custo_total_alternativo(quantidade_total, custos_insumos):
