@@ -61,7 +61,7 @@ impacto_custo = custo_total_alterado - custo_total_atual
 # Exibe os resultados
 print("Quantidade total necessária de cada insumo (kg):")
 for insumo, quantidade in quantidade_total_insumos.items():
-    print(f" - {insumo}: {quantidade} kg")
+    print(f" => {insumo}: {quantidade} kg")
 
 print("\nCusto total de produção (R$):", custo_total_atual)
 print("Custo total de produção com Insumo 1 a R$ 12,00/kg (R$):", custo_total_alterado)
