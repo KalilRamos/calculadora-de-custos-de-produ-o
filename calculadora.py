@@ -9,15 +9,13 @@ insumos_por_produto = {
 custos_insumos = {
     "Insumo 1": 10.00,
     "Insumo 2": 15.00,
-    "Insumo 3": 20.00
-}
+    "Insumo 3": 20.00}
 
 # Produção de cada produto
 producao_prevista = {
     "Produto A": 1200,
     "Produto B": 900,
-    "Produto C": 1500
-}
+    "Produto C": 1500}
 
 # calcular a quantidade total de insumos necessários
 def calcular_quantidade_total(insumos_por_produto, producao_prevista):
@@ -28,7 +26,6 @@ def calcular_quantidade_total(insumos_por_produto, producao_prevista):
     for produto, insumos in insumos_por_produto.items():
         for insumo, quantidade in insumos.items():
             quantidade_total[insumo] += quantidade * producao_prevista[produto]
-
     return quantidade_total
 
 # Calcular o custo total de produção
