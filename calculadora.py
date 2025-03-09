@@ -72,8 +72,6 @@ print("Impacto do aumento do Insumo 1 (R$):", impacto_custo)
 
 
 # def calcular_custo_total_alternativo(quantidade_total, custos_insumos):
-#     return sum(quantidade_total[insumo] * custos_insumos[insumo] for insumo in quantidade_total)
-
-# TODO: Verificar se o cálculo do impacto
+#   return sum(quantidade_total[insumo] * custos_insumos[insumo] for insumo in quantidade_total)
 
 # Acho que dá para melhorar a eficiência, mas funciona por enquanto
