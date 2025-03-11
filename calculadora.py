@@ -1,4 +1,4 @@
-# Quantidade de insumos necessários para cada produto
+# Quantidade de insumos
 insumos_por_produto = {
     "Produto A": {"Insumo 1": 25, "Insumo 2": 15, "Insumo 3": 40},
     "Produto B": {"Insumo 1": 30, "Insumo 2": 25, "Insumo 3": 20},
